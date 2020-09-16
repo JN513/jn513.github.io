@@ -17,4 +17,3 @@ $(document).ready(function() {
     })
 });
 
-$.support.transition = true

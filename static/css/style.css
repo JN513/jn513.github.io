@@ -14,15 +14,6 @@ html{
 .menu{
     background-color: #1C1C1C;
 }
-
-.container{
-    background-color: #1C1C1C;
-}
-
-.navbar .navbar-expand-lg .navbar-dark{
-    background-color: #1C1C1C;
-}
-
 h1, li{
     font-size: 17px;  
 }
@@ -30,9 +21,16 @@ h1, li{
 li{
     padding: 15px;
 }
+.btn :hover{
+    color: 	#191970;
+}
+.nav-link :hover{
+    color: #191970;
+}
 
 main{
     height: 500px;
+    background-color: #1C1C1C;
 }
 
 .volteaotopo{/*volte ao topo*/
