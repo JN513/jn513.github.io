@@ -43,25 +43,13 @@ footer{
     padding-top: 70px;
 }
 
-.icons{
-    padding: 15px;
-}
 
-.circle-icons {
-    padding: 10px;
-    font-size: 18px;
-    width: 18px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;  
-    background: #f0e9e9;
-    color: linear-gradient(180deg, #06043C, #06047D, #0604EA);
+
+#twc{
+    background-color: #00aced;
+    color: white;
 }
-  
-  
-.circle-icons:hover {
-      background: #ccc;
-      color: linear-gradient(180deg, #06043C, #06047D, #0604EA);
-      opacity: 0.7;
+#linke{
+    background-color: #007bb6;
+    color: white;
 }
