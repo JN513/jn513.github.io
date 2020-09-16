@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
     <meta name="author" content="Julio Nunes Avelar">
     <meta name="language" content="PT">
     <meta name="url" content="https://jn513.github.io/pt">
+    <meta name="theme-color" content="#1C1C1C">
 
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon"> 
@@ -21,18 +22,19 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="static/js/jquery-3.5.1.min.js"></script>
     <script src="static/js/index.js"></script>
+    <script src="static/js/style.js"></script>
+    <script src="static/js/jquery-3.5.1.min.js"></script>
 
     <title>Julio Nunes</title>
 </head>
-<body id="top">
+<body id="top" style="background-color: #1C1C1C;">
 
     <div class="menu">
         <div class="container">
 
             <nav id="links-menu" class="navbar navbar-expand-lg navbar-dark" role="navigation">
-                <h1><a href="#top" class="navbar-brand text-white">Julio Nunes</a></h1>
+                <a href="#top" class="navbar-brand text-white"><h2>Julio Nunes</h2></a>
 
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-mobile">
                     <span class="navbar-toggler-icon"></span>
@@ -51,11 +53,79 @@
     </div>
 
     <main>
-        <section id="resumo">
+        <section class="section-vertical first-section">
+            <div class="section-block">
+                <h1>Julio Nunes</h1>
+                <p class="first-p">Desenvolvedor Back-and, Brasileiro, Autodidata, 15 anos. Gosto de criar coisas novas.</p>
+                <ul class="vertical-ul">
+                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://twitter.com/JulioNunesAvel4"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/JN513"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCvpb55VDGaTDD70Krx_YvUg?view_as=subscriber"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="mailto:jn5.guape@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <div class="section-block section-block-center">
+                <img src="static/img/julio-face.jpeg" class="img-circle" alt="">
+            </div>
+        </section>
+        <section class="section-vertical">
+            <div class="section-block section-block-center">
+                <img src="static/img/julio-face.jpeg" class="img-circle" alt="">
+            </div>
+            <div class="section-block">
+                <h2>Sobre eu:</h2>
+                <p>Entrei no mundo da programação por volta dos 11 anos (tenho 15 atualmente), com a ideia de criar projetos com arduino. Depois comecei a aprender C e C++, comecei a participar de competições de programação e a desenvolver projetos maiores. Apartir dai fui tomando paixão pela area pelas inumeras possibilidades de desenvolver coisas novas. Principais Linguagens e Frameworks que utilizo atualmente: </p>
+                <ul class="vertical-ul">
+                    <li>
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-css3"></i>
+                        <span>CSS</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-js"></i>
+                        <span>Java-Script</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-cuttlefish">++</i>
+                        <span>C++</span>
+                    </li>
 
-        </section id="sobreeu">
-        <section>
-
+                    <li>
+                        <i class="fab fa-django"></i>
+                        <span>Django</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-opencv"></i>
+                        <span>Opencv</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-arduino"></i>
+                        <span>Arduino</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-database"></i>
+                        <span>PostgreSQL</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>Todo meu conhecimento veio de Livros, documentação, cursos e principalmente pela pratica.</li>
+                    <li>Comecei desenvolver para Web em 2019 com PHP e atualmente utilizo Python-Django.</li>
+                    <li>Gosto de desenvolver projetos e colocar no Github.</li>
+                    <li>Para mim linguagens são apenas ferramentas, onde a melhor e a que supli suas nessecidades.</li>
+                </ul>
+            </div>
         </section>
         <section id="projetos">
 

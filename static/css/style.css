@@ -1,5 +1,10 @@
 @charset 'utf-8';
 
+:root {
+    --page-background: #1C1C1C;
+    --page-text: white;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -9,17 +14,35 @@
 html{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
 }
 
-.menu{
-    background-color: #1C1C1C;
+body{
+    font-family: Montserrat;
+    width: 80%;
+    margin: 16px;
+    transition: 0.5s all;
+    justify-content: center;
 }
-h1, li{
-    font-size: 17px;  
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+    
+h2 {
+    font-size: 40px;
+    font-weight: unset;
 }
 
 li{
     padding: 15px;
+}
+
+.nav-link {
+    color: var(--page-text)
 }
 .btn :hover{
     color: 	#191970;
@@ -28,9 +51,79 @@ li{
     color: #191970;
 }
 
-main{
-    height: 500px;
-    background-color: #1C1C1C;
+.menu{
+    padding-bottom: 70px;
+}
+
+section {
+    padding: 20px;
+    color: white;
+}
+    
+.section-vertical {
+    display: flex;
+}
+    
+section .section-block {
+    flex: 1;
+}
+    
+section .section-block-center {
+    justify-content: center;
+    display: flex;
+}
+
+section .section-block-center img {
+    border-radius: 50%;
+    width: calc(80% - 64px);
+    height: 90%;
+}
+
+ul {
+    padding-left: 20px;
+}
+    
+p, ul li {
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    line-height: 1.5;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+span, i{
+    color: white;
+}
+
+.first-p {
+    font-size: 30px;
+}
+    
+.vertical-ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+    
+.vertical-ul li {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    color: #3c3c3c;
+    padding-left: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+    
+.vertical-ul li i {
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+    
+.vertical-ul li span {
+    font-size: 14px;
 }
 
 .volteaotopo{/*volte ao topo*/
@@ -45,18 +138,21 @@ main{
 }
 
 footer{
-    background-color: #1C1C1C;
+    background-color: var(--page-background);
+    color: var(--page-text);
     height: 20vh;	
     width: 100%; 
     text-align: center;
-    color: white;
+    justify-content: center;
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 footer p{
     font-size: 1.0em;
     font-weight: 500;
     padding: 10px;
+    text-align: center;
 }
 
 #twc{
@@ -66,4 +162,34 @@ footer p{
 #linke{
     background-color: #007bb6;
     color: white;
+}
+
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+@media screen and (max-width: 728px) {
+    h1 {
+        text-align: center;
+    }
+        
+    .list-vertical {
+        flex-direction: column;
+    }
+    
+    .section-vertical {
+        flex-direction: column;
+    }
+    
+    .first-section {
+        flex-direction: column-reverse;
+    }
+
+    section .section-block-center {
+        text-align: center;
+    }
+    body{
+        width: 94%;
+    }
 }
