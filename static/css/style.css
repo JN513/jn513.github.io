@@ -11,12 +11,20 @@ html{
     height: 100%;
 }
 
+.menu{
+    background-color: #1C1C1C;
+}
+
 h1, li{
-    font-size: 17px;    
+    font-size: 17px;  
 }
 
 li{
     padding: 15px;
+}
+
+main{
+    height: 500px;
 }
 
 .volteaotopo{/*volte ao topo*/
@@ -30,20 +38,20 @@ li{
     display: none;
 }
 
-footer p{
-    font-size: 1.0em;
-    font-weight: 500;
-}
-
 footer{
-    height: 15vh;	
+    background-color: #1C1C1C;
+    height: 20vh;	
     width: 100%; 
     text-align: center;
-    /*color: white;*/
+    color: white;
     padding-top: 70px;
 }
 
-
+footer p{
+    font-size: 1.0em;
+    font-weight: 500;
+    padding: 10px;
+}
 
 #twc{
     background-color: #00aced;
