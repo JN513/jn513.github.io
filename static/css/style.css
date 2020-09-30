@@ -82,11 +82,9 @@ section .section-block-center {
 }
 
 section .section-block-center img {
-    border-radius: 50%;
     width: calc(80% - 64px);
     height: auto;
-    /*calc(80% - 64px)
-    /*rounded mx-auto*/
+    max-height: calc(80%-64px);
 }
 
 ul {
@@ -180,6 +178,12 @@ footer p{
 }
 
 @media screen and (max-width: 728px) {
+
+    section .section-block-center img {
+        width: calc(80% - 64px);
+        height: auto;
+    }
+
     h1 {
         text-align: center;
     }
