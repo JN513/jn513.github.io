@@ -76,7 +76,9 @@ section .section-block-center {
 section .section-block-center img {
     border-radius: 50%;
     width: calc(80% - 64px);
-    height: 90%;
+    height: auto;
+    /*calc(80% - 64px)
+    /*rounded mx-auto*/
 }
 
 ul {
