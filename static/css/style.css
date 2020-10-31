@@ -82,9 +82,8 @@ section .section-block-center {
 }
 
 section .section-block-center img {
-    width: calc(80% - 64px);
-    height: auto;
-    max-height: calc(80%-64px);
+    width: 30vw;
+    height: 50vw;
 }
 
 ul {
@@ -139,7 +138,7 @@ span, i{
     bottom: 2em;
     right: 2em;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 12px;
     padding: 1em;
     display: none;
