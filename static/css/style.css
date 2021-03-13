@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     width: 80%;
     margin: 16px;
     transition: 0.5s all;
@@ -82,8 +82,8 @@ section .section-block-center {
 }
 
 section .section-block-center img {
-    width: 30vw;
-    height: 50vw;
+    width: auto;
+    height: auto;
 }
 
 ul {
